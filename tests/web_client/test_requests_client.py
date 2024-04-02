@@ -4,12 +4,12 @@ from unittest import TestCase
 
 import requests_mock
 
-from awesom_sitemap_parser.__about__ import __version__
-from awesom_sitemap_parser.web_client.abstract_client import (
+from awesome_sitemap_parser.__about__ import __version__
+from awesome_sitemap_parser.web_client.abstract_client import (
     AbstractWebClientSuccessResponse,
     WebClientErrorResponse,
 )
-from awesom_sitemap_parser.web_client.requests_client import RequestsWebClient
+from awesome_sitemap_parser.web_client.requests_client import RequestsWebClient
 
 
 class TestRequestsClient(TestCase):

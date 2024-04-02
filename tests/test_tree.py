@@ -9,13 +9,13 @@ import requests_mock
 from dateutil.tz import tzoffset
 
 from tests.helpers import gzip
-from awesom_sitemap_parser.log import create_logger
-from awesom_sitemap_parser.objects.page import (
+from awesome_sitemap_parser.log import create_logger
+from awesome_sitemap_parser.objects.page import (
     SitemapPage,
     SitemapNewsStory,
     SitemapPageChangeFrequency,
 )
-from awesom_sitemap_parser.objects.sitemap import (
+from awesome_sitemap_parser.objects.sitemap import (
     IndexRobotsTxtSitemap,
     PagesXMLSitemap,
     IndexXMLSitemap,
@@ -25,7 +25,7 @@ from awesom_sitemap_parser.objects.sitemap import (
     PagesRSSSitemap,
     PagesAtomSitemap,
 )
-from awesom_sitemap_parser.tree import sitemap_tree_for_homepage
+from awesome_sitemap_parser.tree import sitemap_tree_for_homepage
 
 # FIXME various exotic properties
 # FIXME XML vulnerabilities with Expat

@@ -6,7 +6,7 @@ from typing import Optional
 
 import requests
 
-from awesom_sitemap_parser.web_client.abstract_client import (
+from awesome_sitemap_parser.web_client.abstract_client import (
     AbstractWebClient,
     AbstractWebClientResponse,
     AbstractWebClientSuccessResponse,

@@ -12,7 +12,7 @@ from .abstract_client import (
     WebClientErrorResponse,
     RETRYABLE_HTTP_STATUS_CODES,
 )
-from awesom_sitemap_parser.__about__ import __version__
+from awesome_sitemap_parser.__about__ import __version__
 
 
 class RequestsWebClientSuccessResponse(AbstractWebClientSuccessResponse):

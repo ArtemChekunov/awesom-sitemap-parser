@@ -1,10 +1,11 @@
 [tool.poetry]
-name = "awesom-sitemap-parser"
+name = "awesome-sitemap-parser"
 version = "0.1.0"
 description = ""
 authors = ["Artem Chekunov <artem.v.chekunov@gmail.com>"]
 license = "GPL3"
 readme = "README.md"
+homepage = "https://github.com/ArtemChekunov/awesome-sitemap-parser"
 
 [tool.poetry.dependencies]
 python = "^3.12"

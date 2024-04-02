@@ -2,8 +2,8 @@ import datetime
 
 import pytest
 
-from awesom_sitemap_parser.exceptions import StripURLToHomepageException, SitemapException, GunzipException
-from awesom_sitemap_parser.helpers import (
+from awesome_sitemap_parser.exceptions import StripURLToHomepageException, SitemapException, GunzipException
+from awesome_sitemap_parser.helpers import (
     html_unescape_strip,
     parse_iso8601_date,
     is_http_url,
